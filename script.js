@@ -51,4 +51,15 @@ async function getPhots() {
   }
 }
 
+//scrolling
+window.addEventListener('scroll', () => {
+  if (
+    window.innerHeight + window.scrollY >=
+    document.body.offsetHeight - 1000
+  ) {
+    getPhots();
+    console.log('load more');
+  }
+});
+
 getPhots();
