@@ -1,6 +1,8 @@
 # javascript-infinite-scrolling-website
 ### Live On: [view](https://sakilk130.github.io/javascript-infinite-scrolling-website/)
-
+### Screenshot:
+![Screenshot](./image/image.png)
+![Screenshot](./image/image1.png)
  ## Learned:
   * fetch data from api
  ## Source
